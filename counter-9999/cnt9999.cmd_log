@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-4 "cnt9999.ngc" cnt9999.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o cnt9999_map.ncd cnt9999.ngd cnt9999.pcf 
+par -w -intstyle ise -ol high -t 1 cnt9999_map.ncd cnt9999.ncd cnt9999.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cnt9999.twx cnt9999.ncd -o cnt9999.twr cnt9999.pcf 
+bitgen -intstyle ise -f cnt9999.ut cnt9999.ncd 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s400-pq208-4 "cnt9999.ngc" cnt9999.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o cnt9999_map.ncd cnt9999.ngd cnt9999.pcf 
+par -w -intstyle ise -ol high -t 1 cnt9999_map.ncd cnt9999.ncd cnt9999.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cnt9999.twx cnt9999.ncd -o cnt9999.twr cnt9999.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f cnt9999.ut cnt9999.ncd 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s400-pq208-4 "cnt9999.ngc" cnt9999.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o cnt9999_map.ncd cnt9999.ngd cnt9999.pcf 
+par -w -intstyle ise -ol high -t 1 cnt9999_map.ncd cnt9999.ncd cnt9999.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cnt9999.twx cnt9999.ncd -o cnt9999.twr cnt9999.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f cnt9999.ut cnt9999.ncd 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s400-pq208-4 "cnt9999.ngc" cnt9999.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o cnt9999_map.ncd cnt9999.ngd cnt9999.pcf 
+par -w -intstyle ise -ol high -t 1 cnt9999_map.ncd cnt9999.ncd cnt9999.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cnt9999.twx cnt9999.ncd -o cnt9999.twr cnt9999.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f cnt9999.ut cnt9999.ncd 
+xst -intstyle ise -ifn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.xst" -ofn "F:/UNI/projects/ise/lc lab/counter9999/cnt9999.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc3s400-pq208-4 "cnt9999.ngc" cnt9999.ngd  
+map -intstyle ise -p xc3s400-pq208-4 -cm area -ir off -pr off -c 100 -o cnt9999_map.ncd cnt9999.ngd cnt9999.pcf 
+par -w -intstyle ise -ol high -t 1 cnt9999_map.ncd cnt9999.ncd cnt9999.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cnt9999.twx cnt9999.ncd -o cnt9999.twr cnt9999.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f cnt9999.ut cnt9999.ncd 

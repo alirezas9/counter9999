@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\UNI\projects\ise\lc lab\counter9999\cnt9999.ncd
+OUTFILE=F:\UNI\projects\ise\lc lab\counter9999\cnt9999.bit
+FAMILY=Spartan3
+PART=xc3s400-4pq208
+WORKINGDIR=F:\UNI\projects\ise\lc lab\counter9999
+LICENSE=WebPack
+USER_INFO=__0_0_0

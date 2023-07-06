@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "F:/UNI/projects/ise/lc lab/counter9999/tb_isim_beh.exe" -prj "F:/UNI/projects/ise/lc lab/counter9999/tb_beh.prj" "work.tb" 
